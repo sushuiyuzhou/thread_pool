@@ -5,7 +5,7 @@
 - Simple lifetime management: pimpl idiom to maintain a movable thread pool object.
 - Can specify number of threads to run; Can specify if thread pool should wait for all tasks to complete before shutdown.
 - Only depend on STL libraries - cross platform.
-- Easy to plugin - just include `"pool.h"`
+- Easy to use - just include `"pool.h"`
 
 #### Sample usages:
 ```C++
